@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 0;
+    z-index: 200;
+}
+.navbar-light .nav-link {
+    justify-content: center;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.solomia-btn {
+    background-color: #77001a !important;
+    border-radius: 30px !important;
+    padding: 15px !important;
+}
+.card-overlay-banner {
+    background: rgba(0, 0, 0, 0.5);
+}
+.banner {
+    position: relative;
+    background-image: url('./assets/header-banner.jpg');
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 5;
+}
+
+.banner-content {
+    text-align: center;
+    padding-bottom: 15rem;
+
+}
+
+.banner-text {
+    font-size: 50px;
+    /* margin-top: 150px; */
+    color: #ffff;
+    /* font-family: "Merriweather"; */
+    padding: 0px 15%;
+    font-weight: bold;
+
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25%;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.solomea-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+@media screen and (min-width: 800px) {
+    .solomea-container {
+      padding: 20px;
+    }
+  }
+  .solomea-head {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.solomea-head .blue {
+    color: #21395d;
+}
+
+
+.solomea-head .red {
+    color: #77001a;
+}
+.about .separator {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.separator-img {
+    display: block;
+    margin: auto;
+    width: 40px;
+}
+
+.solomea-para {
+    color: #051729;
+    font-size: 14px;
+}
+
+.blue-box {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #21395d;
+
+}
+
+.red-box {
+    background: #77001a;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.advantage-text {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 55px;
+    line-height: 50px;
+
+}
+.covid-text {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 25px 50px 50px 50px;
+}
+.achivements-box {
+    padding: 45px;
+}
+
+
+.aicon {
+    width: 40px;
+    display: block;
+    margin: auto;
+}
+
+.ahead {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.apara {
+    font-size: 13px;
+    text-align: center;
+}
+.services {
+    background-image: url("./assets/servicesbg.png");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-color: #21395d;
+    /* padding-top: 50px; */
+    padding-top: 80px;
+    padding-bottom: 92px;
+    background-position: 115% 68%;
+}
+
+.services .solomea-head {
+    color: #ffffff;
+}
+
+.services .solomea-para,
+.services .ahead,
+.services .apara {
+    color: #ffffff;
+    text-align: left;
+}
+.services .separator-img {
+    margin-left: 0;
+
+}
+
+.services .separator {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.service-models {
+    display: flex;
+    padding-top: 50px;
+    position: relative;
+}
+
+.service-models img {
+    margin-right: 20px;
+    width: 60px;
+}
+.ribbon {
+    background-color: #77001a;
+    position: absolute;
+    padding: 5px;
+    border-radius: 30px;
+    color: white;
+    font-size: 13px;
+    right: 25%;
+    top: 60%;
+}
+
+@media screen and (mix-width: 800px) {
+    .ribbon {
+        right: -2%;
+        top: 90%;
+        padding: 4px 10px;
+        margin-top: 7rem !important;
+
+    }
+  }
+  /* our cline */
+.testimonials .separator {
+    margin-bottom: 60px;
+}
+.separator-img {
+    display: block;
+    margin: auto;
+    width: 40px;
+}
+.client-logo{
+    display: flex;
+    padding: 30px;
+}
+.clients-img{
+    width: 109px;
+    padding: 5px;
+    height: 100%;
+}
+.ourmodel h1{
+    text-align: center;
+    color: #77001a;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.map {
+    position: relative;
+    margin-top: 150px;
+}
+/* registion from  section*/
+.contacts {
+    position: absolute;
+    background-color: #21395d;
+    color: #ffffff;
+    padding: 50px;
+    border-radius: 30px;
+    bottom: -10%;
+    right: 150px;
+}
+@media screen and (max-width: 992px) {
+    .contacts
+     {
+    position: static !important;
+    
+   
+    }
+    .solomea-form .form-control {
+        width: 100% !important;
+    }
+  }
+  
+.contacts .separator {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.contacts .separator-img {
+    margin-left: 0px;
+}
+.separator-img {
+    display: block;
+    margin: auto;
+    width: 40px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.solomea-form .form-control {
+    background-color: #21395d;
+    width: 380px;
+    font-size: 12px;
+}
+.solomea-form input {
+    height: 50px;
+    border: 1px solid #c1c6c9 !important;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.solomea-head {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.submit-btn {
+    background-color: #77001a !important;
+    color: #ffffff !important;
+    border-radius: 20px !important;
+    padding: 10px 30px !important;
+}
+/* footer section */
+.footer {
+    background-color: #051729;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-content {
+    margin-left: 40px;
+    margin-top: 80px;
+}
+@media only screen and (max-width: 767px){
+.footer-content {
+    text-align: center;
+}
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+row>*{
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.footer-head {
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 8px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 767px){
+.footer-head {
+    text-align: center;
+    margin-top: 30px;
+}
+}
+.footer-arrow {
+    width: 30px;
+}
+@media only screen and (max-width: 767px){
+.footer-arrow {
+    width: 30px;
+    margin: auto;
+    display: block;
+}}
+.footer-contact {
+    color: #ffffff;
+}
+.footer-contact img {
+    width: 35px;
+    height: 35px;
+    background: #77001a;
+    padding: 10px;
+    border-radius: 17px;
+}
+.mb-2 {
+    margin-bottom: 0.5rem!important;
+}
+.footer-content .footer-text {
+    color: white;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.footer-head {
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 8px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 767px){
+.footer-head {
+    text-align: center;
+    margin-top: 30px;
+}
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.footer li {
+    list-style-type: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+    .footer ul {
+        text-align: center !important; 
+    }
+  }
