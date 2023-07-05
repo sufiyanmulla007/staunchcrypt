@@ -332,6 +332,15 @@ form {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.logo-footer {
+    margin-left: 27px;
+    margin-right: auto;
+    width: 200px;
+}
+.solomea-footer-container {
+    max-width: 1300px;
+    margin: auto;
+}
 .footer-content {
     margin-left: 40px;
     margin-top: 80px;
@@ -339,24 +348,8 @@ form {
 @media only screen and (max-width: 767px){
 .footer-content {
     text-align: center;
+    margin-left: 20px;
 }
-}
-.row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x) * -.5);
-    margin-left: calc(var(--bs-gutter-x) * -.5);
-}
-row>*{
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-    margin-top: var(--bs-gutter-y);
 }
 .footer-head {
     font-size: 18px;
@@ -422,6 +415,7 @@ li {
     list-style-type: none;
     color: #ffffff;
     margin-bottom: 10px;
+    margin-left: -28px
 }
 @media screen and (max-width: 767px) {
     .footer ul {

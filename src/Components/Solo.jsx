@@ -364,6 +364,7 @@ const Solo = () => {
       </section>
       {/* footer section */}
       <Footer/>
+      
     </>
   );
 };

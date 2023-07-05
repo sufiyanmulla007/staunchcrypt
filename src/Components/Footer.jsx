@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <>
     <div className="footer">
-      <div className="solomea-container">
-        <img className="logo" src={Logo} alt="" srcset="" width="100%" />
+      <div className="solomea-footer-container">
+        <img className="logo-footer" src={Logo} alt="" srcset="" width="100%" />
 
         <div className="footer-content">
           <div className="row">
@@ -35,7 +35,7 @@ const Footer = () => {
                   0162 754 0000
                 </div>
                 <div className="mail">
-                  <img src={mail} alt="" srcset="" />
+                <img src={mail} alt="" srcset="" />
                   info.solsol.io
                 </div>
               </div>
