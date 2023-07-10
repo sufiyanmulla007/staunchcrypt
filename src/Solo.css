@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif !important;
-    
 }
 .mt-100 {
     margin-top: 100px;
@@ -416,6 +415,10 @@ li {
     color: #ffffff;
     margin-bottom: 10px;
     margin-left: -28px
+}
+.footer li:hover{
+    text-decoration: underline;
+    color: lightgreen;
 }
 @media screen and (max-width: 767px) {
     .footer ul {
