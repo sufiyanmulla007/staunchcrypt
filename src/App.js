@@ -3,6 +3,7 @@
 import { Route, Routes } from "react-router-dom";
 import Singup from "./Admin/Singup";
 import Login from "./Admin/Login";
+import Dishbord from "./Admin/Dishbord";
 
 // import './Solo.css';
 function App() {
@@ -14,6 +15,7 @@ function App() {
      <Routes>
       <Route  path="/" element={<Singup/>}/>
       <Route path="/Login" element={<Login/>}/>
+      <Route path="/Dishbord" element={<Dishbord/>}/>
      </Routes>
      
     </div>

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import '../Admin/Sing.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 const Singup = () => {
+  const singin= useNavigate();
     const [data,setData]=useState([]);
     const [error,setError]=useState({
         email:false,
@@ -31,11 +32,13 @@ const Singup = () => {
     }else{
       console.log("now you are officially a developer...");
       localStorage.setItem("staunch",JSON.stringify([...data,user]));
+      singin("/Login");
     }
      }
     
   return (
     <>
+    <div className='main-container'>
     <div className='container'>
       <input type='text' name='name'  placeholder='username'
        value={user.name}
@@ -65,6 +68,7 @@ const Singup = () => {
       </div>
       <button className='btns'onClick={()=>handleAdd()}>login</button>
       <p className='mt-3'>Already Have an Accoun<span> <NavLink to="/Login">login</NavLink></span></p>
+    </div>
     </div>
     </>
   );

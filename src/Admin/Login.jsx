@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+  const dis= useNavigate();
     const [error,setError]=useState({
         email:false,
         password:false,
@@ -36,13 +38,15 @@ const Login = () => {
         if(userlogin.length ===0){
             alert("invalid details")
         }else{
-            alert("Successfull Login")
+            alert("Successfull Login");
+            dis('/Dishbord');
         }
       }
     }
      }
   return (
     <>
+    <div className='main-container'>
     <div className='container'>
       <input type='text' name='email'  placeholder='email'
        value={user.email}
@@ -67,6 +71,7 @@ const Login = () => {
         }
       </div>
       <button className='btns' onClick={()=>handleAdd()}>login</button>
+    </div>
     </div>
     </>
   );
