@@ -39,7 +39,7 @@ const Singup = () => {
   return (
     <>
     <div className='main-container'>
-    <div className='container'>
+    <div className='containe'>
       <input type='text' name='name'  placeholder='username'
        value={user.name}
       onChange={(e)=>handleChange(e)}

@@ -47,7 +47,7 @@ const Login = () => {
   return (
     <>
     <div className='main-container'>
-    <div className='container'>
+    <div className='containe'>
       <input type='text' name='email'  placeholder='email'
        value={user.email}
       onChange={(e)=>handleChange(e)}
