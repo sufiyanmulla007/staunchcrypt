@@ -9,16 +9,22 @@ const Apitoolkit = () => {
   return state.user.products
 
  });
+ if(data.loading){
+  return<h2>loading...</h2>;
+ }
+ if(data.error !=null){
+  return <h4>{data.error}</h4>;
+ }
   return (
-    <div>
+    <div style={{justifyContent:"center",textAlign:"center"}}>
       <h1>api called toolkit</h1>
       <button onClick={()=>dispatch(getAllData())}>getData</button>
-      {/* {data.products.map((el)=>(
+      {
+        data.products?.map((el)=>(
         <li>{el.title}</li>
-      ))} */}
-      {data.products.map((ele)=>(
-        <li>{ele.title}</li>
-      ))}
+        ))
+      }
+
     </div>
   );
 };
